@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  margin: auto;
+  margin-top: 70px;
+  padding: 70px 40px;
+  width: 45%;
+  background-color: #111d23;
+  gap: 15px;
+}
+
+.container img {
+  width: 35%;
+}
+
+.container:last-child {
+  line-height: 30px;
+  gap: 15px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.assetscontainer {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.assetsbox {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  line-height: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid;
+}
